@@ -13,6 +13,4 @@ public class ScrollGestureExample extends BaseTest{
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
 		scrollAction(direction);
 	}
-	
-
 }

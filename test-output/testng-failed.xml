@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mithunsharma.ScrollGestureExample">
+      <class name="mithunsharma.SwipeGestureExample">
         <methods>
-          <include name="scrollGesture"/>
+          <include name="swipeGesture"/>
           <include name="configureAppiumCapability"/>
         </methods>
-      </class> <!-- mithunsharma.ScrollGestureExample -->
+      </class> <!-- mithunsharma.SwipeGestureExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
