@@ -20,8 +20,6 @@ public class SwipeGestureExample extends BaseTest{
 		Assert.assertEquals((driver.findElement(By.xpath("(//android.widget.ImageView)[1]"))).getAttribute("focusable"), "true");
 		swipeGestureAction(elementId, "left");
 		Assert.assertEquals((driver.findElement(By.xpath("(//android.widget.ImageView)[1]"))).getAttribute("focusable"), "false");
-		Assert.assertEquals((driver.findElement(By.xpath("(//android.widget.ImageView)[1]"))).getAttribute("focusable"), "true");
-		
 	}
 
 }
