@@ -9,7 +9,7 @@ import io.appium.java_client.AppiumBy;
 
 public class MiscellaneousExample extends BaseTest{
 	@Test
-	public void DragExample() {
+	public void DragExample() throws InterruptedException {
 		String direction= "down";
 		scrollAction(direction);
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
@@ -20,6 +20,7 @@ public class MiscellaneousExample extends BaseTest{
 		Assert.assertEquals(result, "Dropped!");
 		dragGestureAction(dragCircle, 158, 742);
 		Assert.assertEquals(result, "Dropped!");
+		
 	}
 
 }
