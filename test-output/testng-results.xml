@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-04T11:09:06 BST" name="Default suite" finished-at="2022-09-04T11:09:18 BST" duration-ms="11346">
+  <suite started-at="2022-09-04T13:56:24 BST" name="Default suite" finished-at="2022-09-04T13:56:35 BST" duration-ms="10988">
     <groups>
     </groups>
-    <test started-at="2022-09-04T11:09:06 BST" name="Default test" finished-at="2022-09-04T11:09:18 BST" duration-ms="11346">
-      <class name="mithunsharma.DialogGestureExample">
-        <test-method is-config="true" signature="configureAppiumCapability()[pri:0, instance:mithunsharma.DialogGestureExample@451001e5]" started-at="2022-09-04T11:09:07 BST" name="configureAppiumCapability" finished-at="2022-09-04T11:09:13 BST" duration-ms="6913" status="PASS">
+    <test started-at="2022-09-04T13:56:24 BST" name="Default test" finished-at="2022-09-04T13:56:35 BST" duration-ms="10988">
+      <class name="mithunsharma.DialogWithLongMessage">
+        <test-method is-config="true" signature="configureAppiumCapability()[pri:0, instance:mithunsharma.DialogWithLongMessage@451001e5]" started-at="2022-09-04T13:56:24 BST" name="configureAppiumCapability" finished-at="2022-09-04T13:56:30 BST" duration-ms="6413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppiumCapability -->
-        <test-method signature="validateDialog()[pri:0, instance:mithunsharma.DialogGestureExample@451001e5]" started-at="2022-09-04T11:09:13 BST" name="validateDialog" finished-at="2022-09-04T11:09:18 BST" duration-ms="4361" status="PASS">
+        <test-method signature="dialogLongMessage()[pri:0, instance:mithunsharma.DialogWithLongMessage@451001e5]" started-at="2022-09-04T13:56:30 BST" name="dialogLongMessage" finished-at="2022-09-04T13:56:35 BST" duration-ms="4536" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateDialog -->
-      </class> <!-- mithunsharma.DialogGestureExample -->
+        </test-method> <!-- dialogLongMessage -->
+      </class> <!-- mithunsharma.DialogWithLongMessage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
